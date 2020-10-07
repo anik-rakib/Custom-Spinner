@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:padding="5dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/countryImageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        tools:src="@drawable/united_kingdom" />
+
+    <TextView
+        android:id="@+id/countryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/countryImageView"
+        android:layout_centerVertical="true"
+        android:textColor="@color/incharge_dark_grey"
+        android:textSize="18sp"
+        tools:text="United Kingdom"/>
+
+    <ImageView
+        android:id="@+id/upDownArrow"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+        />
+</RelativeLayout>
